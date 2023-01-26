@@ -1,0 +1,88 @@
+:root{
+    --input-color: rgba(72, 72, 72, 0.184);
+}
+
+body {
+    background-color: rgb(70, 142, 236);
+    font: normal 15pt Arial;   
+     
+}
+
+header {
+    color: white;
+    text-align: center;
+
+}
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363); 
+    text-align: left;   
+    margin: auto;
+    
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}
+
+label {
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    display: inline-block;    
+    width: fit-content;
+}
+
+input {
+    width: 60px;
+    
+}
+input.entrada {
+    height: 20px;
+    background-color: var(--input-color);
+    border-style: none;
+    border-radius: 3px;
+    
+}
+
+#idBtn {
+    background-color: var(--input-color);
+    color: rgba(0, 0, 0, 0.704);
+    border-style: none;
+    border-radius: 3px;
+    height: 20px;
+    margin-top: 12px;
+    width: 146px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#idBtn:hover {
+    background-color: rgba(96, 96, 96, 0.414);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.322);    
+}
+
+#idBtn:active {
+    color: white;
+}
+
+
+
+footer {
+    margin-top: 100px;
+    color: rgb(197, 0, 0);
+}
+
+.inputs {
+    width: fit-content;
+}
+
+select {
+    margin-top:  20px;
+}
+
